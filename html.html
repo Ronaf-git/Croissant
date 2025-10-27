@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Croissanted 🍞</title>
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#f8d7a3 0%,#fef3e2 100%);
+  font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  color:#333;
+  text-align:center;
+  padding:2rem;
+}
+h1{
+  font-size:2.5rem;
+  margin-bottom:1rem;
+  color:#c46b1d;
+  text-shadow:2px 2px #fff4dc;
+}
+p{
+  font-size:1.2rem;
+  max-width:500px;
+  line-height:1.6;
+}
+.croissant{
+  font-size:4rem;
+  animation:boum 1.5s ease infinite;
+  margin:1rem 0;
+}
+@keyframes boum{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.message{font-style:italic;margin-top:1rem}
+footer{
+  position:absolute;
+  bottom:1rem;
+  font-size:.9rem;
+  color:#555;
+}
+</style>
+</head>
+<body>
+  <div class="croissant">🥐</div>
+  <h1>On dirait bien que tu as été <strong>croissanted</strong> 🥐</h1>
+  <p>Profite bien... mais la prochaine fois, ce sera un <strong>verre</strong> 🍷</p>
+  <div class="message">(Hé oui, je suis allergique aux œufs... Pas de chance pour les croissants !)</div>
+  <footer>Made with ❤️ and zero eggs</footer>
+</body>
+</html>
